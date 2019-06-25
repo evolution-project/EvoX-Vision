@@ -6,7 +6,18 @@ import './footer.scss';
 export const Footer = () => (
   <footer className="Footer">
     <div className="Footer-inner">
-    
+    <a
+      className="Footer-logo mycrypto"
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://vision.arqma.com"
+    >
+      <PoweredByMyCrypto />
+    </a>
+    <div className="flex-spacer" />
+    <div className="Footer-main-content">
+      <a className="Footer-logo" href="https://vision.arqma.com/">
+        <Logo />
         </a>
         <p className="Footer-main-content-text">
           ArQmAVision is an open-source ArQmA block explorer that is offered as a part of the{' '}
