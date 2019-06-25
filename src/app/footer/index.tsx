@@ -10,21 +10,21 @@ export const Footer = () => (
         className="Footer-logo mycrypto"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://mycrypto.com"
+        href="https://vision.arqma.com"
       >
-        <PoweredByMyCrypto />
+        <PoweredByArQmA />
       </a>
       <div className="flex-spacer" />
       <div className="Footer-main-content">
-        <a className="Footer-logo" href="https://monerovision.com/">
+        <a className="Footer-logo" href="https://vision.arqma.com/">
           <Logo />
         </a>
         <p className="Footer-main-content-text">
-          MoneroVision is an open-source Monero block explorer that is offered as a part of the{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://mycrypto.com">
+          ArQmAVision is an open-source ArQmA block explorer that is offered as a part of the{' '}
+          <a target="_blank" rel="noopener noreferrer" href="https://vision.arqma.com">
             MyCrypto
           </a>{' '}
-          network. At MyCrypto, we’re focused on building awesome products that put the power in
+          network. At ARQMA, we’re focused on building awesome products that put the power in
           your hands and this is just the beginning of our Monero offerings.
         </p>
       </div>
@@ -49,13 +49,13 @@ export const Footer = () => (
             <i className="nc-icon nc-logo-github size_24px" />
           </a>
         </div>
-        <p className="Footer-social-titles">MyCrypto</p>
+        <p className="Footer-social-titles">ARQMA</p>
         <div className="Footer-social-titles-wrapper">
           <a
             className="Footer-social-media-link"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://twitter.com/mycrypto"
+            href="https://twitter.com/Arqma_network"
           >
             <i className="nc-icon nc-logo-twitter size_24px" />
           </a>
@@ -79,7 +79,7 @@ export const Footer = () => (
             className="Footer-social-media-link"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.facebook.com/mycryptoHQ"
+            href="https://www.facebook.com/Arqma_network"
           >
             <i className="nc-icon nc-logo-facebook size_24px" />
           </a>

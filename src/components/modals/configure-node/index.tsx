@@ -217,7 +217,7 @@ class ConfigureNodeClass extends React.Component<Props, State> {
           // inlinelabel={pending ? 'Connecting to node...' : ''}
           required={true}
           error={urlError}
-          placeholder="https://monero.mycryptoapi.com"
+          placeholder="https://blocks.arqma.com"
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             this.onChange('url', e.target.value)
           }
