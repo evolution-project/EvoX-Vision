@@ -12,7 +12,7 @@ export const Footer = () => (
         rel="noopener noreferrer"
         href="https://vision.arqma.com"
       >
-        <PoweredByArQmA />
+        <PPoweredByMyCrypto />
       </a>
       <div className="flex-spacer" />
       <div className="Footer-main-content">
