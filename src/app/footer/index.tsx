@@ -24,7 +24,7 @@ export const Footer = () => (
           <a target="_blank" rel="noopener noreferrer" href="https://vision.arqma.com">
             ARQMA
           </a>{' '}
-          network. At ARQMA, we’re focused on building awesome products that put the power in
+          network. At ArQmA, we’re focused on building awesome products that put the power in
           your hands and this is just the beginning of our Monero offerings.
         </p>
       </div>
