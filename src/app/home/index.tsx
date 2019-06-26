@@ -37,11 +37,11 @@ export class Home extends React.Component {
           <div className="New-User-CTA-text-wrapper">
             <h2 className="New-User-CTA-title">Welcome to ArQmAVision!</h2>
             <p className="New-User-CTA-text">
-              We're an open-source Monero block explorer built by the team at{' '}
+              We're an open-source Arqma block explorer built by the team at{' '}
               <a target="_blank" rel="noopener noreferrer" href="https://vision.arqma.com">
                 ARQMA
               </a>. We’re building awesome products that put the power in your hands and this is
-              just the beginning of our Monero offerings. Follow us{' '}
+              just the beginning of our Arqma offerings. Follow us{' '}
               <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Arqma_network">
                 @Arqma_network
               </a>{' '}
@@ -49,7 +49,7 @@ export class Home extends React.Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/MyCryptoHQ/MoneroVision"
+                href="https://github.com/arqma"
               >
                 GitHub
               </a>.
