@@ -174,7 +174,6 @@ class AddNodeClass extends React.Component<Props, State> {
     );
   }
 }
-
 const mapStateToProps = (state: AppState) => {
   return {
     open: state.modals.add_node.open,
