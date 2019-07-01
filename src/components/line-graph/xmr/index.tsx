@@ -60,7 +60,7 @@ export class MoneroGraph extends React.Component<Props, State> {
     return !fetchingData && !!data[0] ? (
       <div className="xmr-price">
         <div className="xmr-price-header">
-          <p className="title">Monero Price</p>
+          <p className="title">ArQmA Price</p>
           <div className="flex-spacer" />
           <p className="time">7d</p>
         </div>
@@ -111,7 +111,7 @@ export class MoneroGraph extends React.Component<Props, State> {
       // Skeleton graph
       <div className="xmr-price">
         <div className="xmr-price-header">
-          <p className="title">Monero Price</p>
+          <p className="title">ArQmA Price</p>
           <div className="flex-spacer" />
           <p className="time">7d</p>
         </div>
