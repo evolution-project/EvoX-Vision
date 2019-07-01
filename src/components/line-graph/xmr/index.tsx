@@ -25,13 +25,13 @@ export class MoneroGraph extends React.Component<Props, State> {
 
   public fetchData = () => {
     this.setState({ fetchingData: true });
-    fetchAsync('https://proxy.mycryptoapi.com/mv')
+    fetchAsync('https://coincap.io/history/1day/ARQ')
       .then((json: any) => {
         if (json) {
           this.setState({ fetchingData: false });
           this.setState({ data: this.formatRawData(json.Data) });
         } else {
-          throw new Error('Failed to fetch XMR data');
+          throw new Error('Failed to fetch ARQ data');
         }
       })
       .catch(error => {
