@@ -21,7 +21,7 @@ export const Footer = () => (
       </a>
         <p className="Footer-main-content-text">
           ArQmA Vision is an open-source ArQmA block explorer that is offered as a part of the{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://vision.arqma.com">
+          <a target="_blank" rel="noopener noreferrer" href="https://arqma.com">
             ARQMA
           </a>{' '}
           network. At ArQmA, we’re focused on building awesome products that put the power in
