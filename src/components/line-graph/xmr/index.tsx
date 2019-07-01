@@ -29,7 +29,7 @@ export class MoneroGraph extends React.Component<Props, State> {
       .then((json: any) => {
         if (json) {
           this.setState({ fetchingData: false });
-          this.setState({ data: this.formatRawData(json.Data) });
+          this.setState({ data: this.formatRawData(json.price) });
         } else {
           throw new Error('Failed to fetch ARQ data');
         }
@@ -41,8 +41,8 @@ export class MoneroGraph extends React.Component<Props, State> {
   };
 
   public formatRawData = (data: any) => {
-    return data.map((point: { [key: string]: number }, i: number) => {
-      return [i, point.close, point.time];
+    return data.map((arr: number[], i: number) => {
+      return [i, arr[1], arr[0]];
     });
   };
 
@@ -62,7 +62,7 @@ export class MoneroGraph extends React.Component<Props, State> {
         <div className="xmr-price-header">
           <p className="title">ArQmA Price</p>
           <div className="flex-spacer" />
-          <p className="time">7d</p>
+          <p className="time">24h</p>
         </div>
         <div className="xmr-price-data">
           <div className="left">
@@ -113,7 +113,7 @@ export class MoneroGraph extends React.Component<Props, State> {
         <div className="xmr-price-header">
           <p className="title">ArQmA Price</p>
           <div className="flex-spacer" />
-          <p className="time">7d</p>
+          <p className="time">24h</p>
         </div>
         <div className="xmr-price-data" aria-hidden={true}>
           <div className="left">
