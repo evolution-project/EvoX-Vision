@@ -2,7 +2,7 @@ import * as React from 'react';
 import './home.scss';
 import { MemPool } from 'components/tables/mempool';
 import { Blocks } from 'components/tables/blocks';
-import { MoneroGraph } from 'components/line-graph/xmr';
+//import { MoneroGraph } from 'components/line-graph/xmr';
 
 export class Home extends React.Component {
   public state = {
@@ -35,7 +35,7 @@ export class Home extends React.Component {
       <>
         <section className="card New-User-CTA">
           <div className="New-User-CTA-text-wrapper">
-            <h2 className="New-User-CTA-title">Welcome to ArQmAVision!</h2>
+            <h2 className="New-User-CTA-title">Welcome to ArQmA Vision!</h2>
             <p className="New-User-CTA-text">
               We're an open-source Arqma block explorer built by the team at{' '}
               <a target="_blank" rel="noopener noreferrer" href="https://vision.arqma.com">
