@@ -2,7 +2,7 @@ import * as React from 'react';
 import './home.scss';
 import { MemPool } from 'components/tables/mempool';
 import { Blocks } from 'components/tables/blocks';
-//import { MoneroGraph } from 'components/line-graph/xmr';
+import { MoneroGraph } from 'components/line-graph/xmr';
 
 export class Home extends React.Component {
   public state = {
