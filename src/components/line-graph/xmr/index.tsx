@@ -25,11 +25,11 @@ export class MoneroGraph extends React.Component<Props, State> {
 
   public fetchData = () => {
     this.setState({ fetchingData: true });
-    fetchAsync('https://api.coingecko.com/api/v3/coins/arqma/market_chart?vs_currency=usd&days=1')
+    fetchAsync('https://api.coingecko.com/api/v3/coins/arqma/market_chart?vs_currency=usd&days=7')
       .then((json: any) => {
         if (json) {
           this.setState({ fetchingData: false });
-          this.setState({ data: this.formatRawData(json.price) });
+          this.setState({ data: this.formatRawData(json.prices) });
         } else {
           throw new Error('Failed to fetch ARQ data');
         }
@@ -62,7 +62,7 @@ export class MoneroGraph extends React.Component<Props, State> {
         <div className="xmr-price-header">
           <p className="title">ArQmA Price</p>
           <div className="flex-spacer" />
-          <p className="time">24h</p>
+          <p className="time">7d</p>
         </div>
         <div className="xmr-price-data">
           <div className="left">
