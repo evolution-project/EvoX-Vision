@@ -25,7 +25,7 @@ export class MoneroGraph extends React.Component<Props, State> {
 
   public fetchData = () => {
     this.setState({ fetchingData: true });
-    fetchAsync('https://coincap.io/history/1day/ARQ')
+    fetchAsync('https://api.coingecko.com/api/v3/coins/arqma/market_chart?vs_currency=usd&days=1')
       .then((json: any) => {
         if (json) {
           this.setState({ fetchingData: false });
