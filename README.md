@@ -1,8 +1,8 @@
-# [MoneroVision](https://mycryptohq.github.io/MoneroVision/)
+# [EvoX Vision](https://mycryptohq.github.io/MoneroVision/)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-MoneroVision is a block explorer for Monero
+EvoX Vision is a blockchain explorer for Evolution Network
 
 ## Contributing
 
@@ -29,8 +29,8 @@ Pull requests should be made against the [master branch](https://github.com/MyCr
 Get source code and download dependencies:
 
 ```
-git clone https://github.com/MyCryptoHQ/MoneroVision.git
-cd MoneroVision
+git clone https://github.com/evolution-project/MoneroVision.git
+cd EvoxVision
 npm i
 ```
 
