@@ -69,8 +69,9 @@ span {
 .card {
   border: 1px solid $border-color;
   border-radius: $border-radius;
-  background-color: #221c2b;
-  box-shadow: $box-shadow;
+  background-color: #1a181c;
+  box-shadow: (255, 255, 255) 0px 3px 6px;
+/*  box-shadow: $box-shadow; */
   width: 100%;
   padding: 1rem 2rem;
   overflow: hidden;
