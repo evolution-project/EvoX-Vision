@@ -24,11 +24,12 @@ Pull requests should be made against the [master branch](https://github.com/MyCr
 #### Prerequisits
 
 * [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/en/)
+* [Node.js](https://nodejs.org/en/) 11.9.0
 
 Get source code and download dependencies:
 
 ```
+nvm use 11.9.0
 git clone https://github.com/evolution-project/MoneroVision.git
 cd EvoxVision
 npm i
