@@ -55,7 +55,7 @@ Get source code and download dependencies:
 
 `npm run start`
 
-This will run a local development server which default to http://localhost:8080
+This will run a local development server which default to http://127.0.0.1:8080
 
 #### Build
 

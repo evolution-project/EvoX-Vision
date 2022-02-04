@@ -25,7 +25,7 @@
     "comment-format": false,
     "ordered-imports": false,
     "react-anchor-blank-noopener": true,
-    "no-http-string": [true, "http://localhost:.*"],
+    "no-http-string": [true, "http://127.0.0.1:.*"],
     "react-no-dangerous-html": true
   },
   "rulesDirectory": ["node_modules/tslint-microsoft-contrib"]
