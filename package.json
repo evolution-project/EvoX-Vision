@@ -1,7 +1,7 @@
 {
-  "name": "MoneroVision",
+  "name": "EvoX-Vision",
   "version": "1.0.0",
-  "description": "A blockchain explorer front-end for Monero",
+  "description": "A blockchain explorer front-end for Evolution Network",
   "main": "index.js",
   "engines": {
     "node": ">= 8.0.0",
@@ -88,13 +88,13 @@
   "prepush": "npm run tslint && npm run tscheck",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MyCryptoHQ/React-Typescript-Web3.git"
+    "url": "git+https://github.com/https://github.com/evolution-project/Overflow.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MyCryptoHQ/React-Typescript-Web3/issues"
+    "url": "https://github.com/https://github.com/evolution-project/Overflow/issues"
   },
-  "homepage": "https://github.com/MyCryptoHQ/React-Typescript-Web3#readme"
+  "homepage": "https://github.com/Mhttps://github.com/evolution-project/Overflow3#readme"
 }

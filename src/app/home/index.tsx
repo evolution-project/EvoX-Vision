@@ -35,21 +35,21 @@ export class Home extends React.Component {
       <>
         <section className="card New-User-CTA">
           <div className="New-User-CTA-text-wrapper">
-            <h2 className="New-User-CTA-title">Welcome to ArQmA Vision!</h2>
+            <h2 className="New-User-CTA-title">Welcome to Evolution - EvoX Vision!</h2>
             <p className="New-User-CTA-text">
-              We're an open-source Arqma block explorer built by the team at{' '}
-              <a target="_blank" rel="noopener noreferrer" href="https://vision.arqma.com">
-                ARQMA
+              We're an open-source EvoX blockchain explorer built by the team at{' '}
+              <a target="_blank" rel="noopener noreferrer" href="https://vision.evolution-network.org">
+                Evolution Project
               </a>. We’re building awesome products that put the power in your hands and this is
-              just the beginning of our Arqma offerings. Follow us{' '}
-              <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Arqma_network">
-                @Arqma_network
+              just the beginning of our Evolution Project offerings. Follow us{' '}
+              <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Evolution_EvoX">
+                @Evolution_EvoX
               </a>{' '}
               for updates, and check us out on{' '}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/arqma"
+                href="https://github.com/evolution-project"
               >
                 GitHub
               </a>.

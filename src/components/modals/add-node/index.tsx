@@ -163,7 +163,7 @@ class AddNodeClass extends React.Component<Props, State> {
           // inlinelabel={pending ? 'Connecting to node...' : ''}
           required={true}
           error={urlError}
-          placeholder="https://blocks.arqma.com"
+          placeholder="https://explorer.evolution-network.org"
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             this.onChange('url', e.target.value)
           }

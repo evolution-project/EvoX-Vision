@@ -2,7 +2,7 @@ import { createReducer } from 'utils/functions';
 import { TypeKeys } from './constants';
 import { Node, AddNodeAction, RemoveNodeAction, EditNodeAction, SelectNodeAction } from './actions';
 
-export const defaultNode = 'ArQmA';
+export const defaultNode = 'Evolution Network Node';
 
 export interface NodeState {
   selectedNode: string;
@@ -11,7 +11,7 @@ export interface NodeState {
 
 export const INITIAL_STATE: NodeState = {
   selectedNode: defaultNode,
-  nodes: [{ name: defaultNode, url: 'https://blocks.arqma.com' }]
+  nodes: [{ name: defaultNode, url: 'https://explorer.evolution-network.org' }]
 };
 
 function addNode(state: NodeState, action: AddNodeAction): NodeState {
