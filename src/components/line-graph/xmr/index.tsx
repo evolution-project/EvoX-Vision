@@ -25,7 +25,9 @@ export class MoneroGraph extends React.Component<Props, State> {
 
   public fetchData = () => {
     this.setState({ fetchingData: true });
-    fetchAsync('https://api.coingecko.com/api/v3/coins/evolution-network/market_chart?vs_currency=usd&days=30')
+    fetchAsync(
+      'https://api.coingecko.com/api/v3/coins/evolution-network/market_chart?vs_currency=usd&days=1'
+    )
       .then((json: any) => {
         if (json) {
           this.setState({ fetchingData: false });
@@ -62,7 +64,7 @@ export class MoneroGraph extends React.Component<Props, State> {
         <div className="xmr-price-header">
           <p className="title">EVOX Price</p>
           <div className="flex-spacer" />
-          <p className="time">30d</p>
+          <p className="time">24h</p>
         </div>
         <div className="xmr-price-data">
           <div className="left">
@@ -77,7 +79,7 @@ export class MoneroGraph extends React.Component<Props, State> {
                 'us-EN',
                 { style: 'currency', currency: 'USD' }
               )}{' '}
-              ({diffPercent}%)
+              ({diffPercent}%) 24h
             </p>
           </div>
           <div className="flex-spacer" />
